@@ -60,9 +60,9 @@ header{
 	height: 130px;
 	z-index: 99;
 	background-color: #41c17d;
+	background-image: -webkit-linear-gradient(bottom, #248888 0%, #248888 0.27%, #40c27d 99.46%, #40c27d 100%);
 	background-image: -moz-linear-gradient(bottom, #248888 0%, #248888 0.27%, #40c27d 99.46%, #40c27d 100%);
 	background-image: -o-linear-gradient(bottom, #248888 0%, #248888 0.27%, #40c27d 99.46%, #40c27d 100%);
-	background-image: -webkit-linear-gradient(bottom, #248888 0%, #248888 0.27%, #40c27d 99.46%, #40c27d 100%);
 	background-image: linear-gradient(bottom, #248888 0%, #248888 0.27%, #40c27d 99.46%, #40c27d 100%);
 }
 
@@ -99,8 +99,8 @@ header .burger_icon{
 	color: #43b779;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 14px;
-	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
 	border-radius: 2px;
 	margin: 45px 10px 0 0;
 }
@@ -132,10 +132,10 @@ header nav li a{
 	color: #fff;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 16px;
-	transition: all .2s linear;
-	-o-transition: all .2s linear;
-	-moz-transition: all .2s linear;
 	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	transition: all .2s linear;
 }
 
 header nav li a:hover,
@@ -175,10 +175,10 @@ header .social li:first-child{
 	max-width: 550px;
 	margin-left: 80px;
 	top: 50%;
-	transform:translate(0,-50%);
 	-webkit-transform:translate(0,-50%);
 	-moz-transform:translate(0,-50%);
 	-o-transform:translate(0,-50%);
+	transform:translate(0,-50%);
 }
 
 .hero .caption h1{
@@ -206,8 +206,8 @@ a.app_store_btn{
 	text-decoration: none;
 	padding: 15px 40px;
 	border: 2px solid #525252;
-	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
 	border-radius: 2px;
 	margin: 20px 20px 10px 0;
 
@@ -277,10 +277,10 @@ a.app_store_btn,
 .iphone_icon,
 .android_icon,
 a.app_link{
-	transition: all .2s linear;
-	-o-transition: all .2s linear;
-	-moz-transition: all .2s linear;
 	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	transition: all .2s linear;
 }
 
 .about_video{
@@ -390,11 +390,10 @@ a.app_link{
 	font-size: 16px;
 	line-height: 44px;
 	text-indent: 25px;
-
-	transition: all .2s linear;
-	-o-transition: all .2s linear;
-	-moz-transition: all .2s linear;
 	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	transition: all .2s linear;
 }
 
 .about .features_list ul li.camera_icon{
@@ -431,9 +430,9 @@ a.app_link{
 	width: 100%;
 	padding: 100px 0 20px 0;
 	background-color: #41c17d;
+	background-image: -webkit-linear-gradient(bottom, #248888 0%, #248888 0.27%, #40c27d 99.46%, #40c27d 100%);
 	background-image: -moz-linear-gradient(bottom, #248888 0%, #248888 0.27%, #40c27d 99.46%, #40c27d 100%);
 	background-image: -o-linear-gradient(bottom, #248888 0%, #248888 0.27%, #40c27d 99.46%, #40c27d 100%);
-	background-image: -webkit-linear-gradient(bottom, #248888 0%, #248888 0.27%, #40c27d 99.46%, #40c27d 100%);
 	background-image: linear-gradient(bottom, #248888 0%, #248888 0.27%, #40c27d 99.46%, #40c27d 100%);
 }
 
@@ -529,10 +528,10 @@ a.app_link{
 	background: url('../img/nav_arrow.png') no-repeat;
 	text-indent: -200px;
 	overflow: hidden;
-	transition: all .2s linear;
-	-o-transition: all .2s linear;
-	-moz-transition: all .2s linear;
 	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	transition: all .2s linear;
 }
 
 #tslider .owl-controls .owl-prev{
@@ -561,9 +560,9 @@ a.app_link{
 	width: 100%;
 	padding: 100px 0;
 	text-align: center;
+	background-image: -webkit-linear-gradient(bottom, #248888 0%, #248888 0.27%, #40c27d 99.46%, #40c27d 100%);
 	background-image: -moz-linear-gradient(bottom, #248888 0%, #248888 0.27%, #40c27d 99.46%, #40c27d 100%);
 	background-image: -o-linear-gradient(bottom, #248888 0%, #248888 0.27%, #40c27d 99.46%, #40c27d 100%);
-	background-image: -webkit-linear-gradient(bottom, #248888 0%, #248888 0.27%, #40c27d 99.46%, #40c27d 100%);
 	background-image: linear-gradient(bottom, #248888 0%, #248888 0.27%, #40c27d 99.46%, #40c27d 100%);
 }
 
@@ -587,28 +586,28 @@ a.app_link{
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	vertical-align: middle;
-	border-top-left-radius: 2px;
-	-o-border-top-left-radius: 2px;
-	-moz-border-top-left-radius: 2px;
 	-webkit-border-top-left-radius: 2px;
-	border-bottom-left-radius: 2px;
-	-o-border-bottom-left-radius: 2px;
-	-moz-border-bottom-left-radius: 2px;
+	-moz-border-top-left-radius: 2px;
+	-o-border-top-left-radius: 2px;
+	border-top-left-radius: 2px;
 	-webkit-border-bottom-left-radius: 2px;
+	-moz-border-bottom-left-radius: 2px;
+	-o-border-bottom-left-radius: 2px;
+	border-bottom-left-radius: 2px;
 }
 
 .sub_box #mc_submit{
 	display: inline-block;
 	width: 60px;
 	height: 50px;
-	border-top-right-radius: 2px;
-	-o-border-top-right-radius: 2px;
-	-moz-border-top-right-radius: 2px;
 	-webkit-border-top-right-radius: 2px;
-	border-bottom-right-radius: 2px;
-	-o-border-bottom-right-radius: 2px;
-	-moz-border-bottom-right-radius: 2px;
+	-moz-border-top-right-radius: 2px;
+	-o-border-top-right-radius: 2px;
+	border-top-right-radius: 2px;
 	-webkit-border-bottom-right-radius: 2px;
+	-moz-border-bottom-right-radius: 2px;
+	-o-border-bottom-right-radius: 2px;
+	border-bottom-right-radius: 2px;
 	background-color: #fff;
 	border: 0;
 	outline: none;
