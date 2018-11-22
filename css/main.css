@@ -1,47 +1,36 @@
 /*		Fonts		*/
 @font-face {
-    font-family: 'open_regular';
-    src: url('../fonts/opensans-regular.eot');
-    src: url('../fonts/opensans-regular.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/opensans-regular.woff') format('woff'),
-         url('../fonts/opensans-regular.ttf') format('truetype'),
-         url('../fonts/opensans-regular.svg#LatoRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+	font-family: 'open_regular';
+	src: url('../fonts/opensans-regular.eot');
+	src: url('../fonts/opensans-regular.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/opensans-regular.woff') format('woff'),
+		 url('../fonts/opensans-regular.ttf') format('truetype'),
+		 url('../fonts/opensans-regular.svg#LatoRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
-
 
 @font-face {
-    font-family: 'open_bold';
-    src: url('../fonts/opensans-bold.eot');
-    src: url('../fonts/opensans-bold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/opensans-bold.woff') format('woff'),
-         url('../fonts/opensans-bold.ttf') format('truetype'),
-         url('../fonts/opensans-bold.svg#LatoRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+	font-family: 'open_bold';
+	src: url('../fonts/opensans-bold.eot');
+	src: url('../fonts/opensans-bold.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/opensans-bold.woff') format('woff'),
+		 url('../fonts/opensans-bold.ttf') format('truetype'),
+		 url('../fonts/opensans-bold.svg#LatoRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
-
 
 @font-face {
-    font-family: 'open_semibold';
-    src: url('../fonts/opensans-semibold.eot');
-    src: url('../fonts/opensans-semibold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/opensans-semibold.woff') format('woff'),
-         url('../fonts/opensans-semibold.ttf') format('truetype'),
-         url('../fonts/opensans-semibold.svg#open_sanssemibold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+	font-family: 'open_semibold';
+	src: url('../fonts/opensans-semibold.eot');
+	src: url('../fonts/opensans-semibold.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/opensans-semibold.woff') format('woff'),
+		 url('../fonts/opensans-semibold.ttf') format('truetype'),
+		 url('../fonts/opensans-semibold.svg#open_sanssemibold') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
-
-
-
-
-
-
 
 section, footer {
 	background: #fffcfc;
@@ -63,17 +52,7 @@ a:focus{
 	max-width: 1130px;
 }
 
-
-
-
-
-
-
-
-
-
 /*		Header 		*/
-
 header{
 	position: relative;
 	display: block;
@@ -88,16 +67,16 @@ header{
 }
 
 header {
-  position: relative;
-  height: 150px;
-  background-image: linear-gradient(#23a94c00, #248888);
-  clip-path: polygon(
-    0 0,
-    100% 0,
-    100% 100%,
-    0 calc(100% - 4vw)
-  );
-  /* change the calc height to a percentage height to get alternate responsive behavior*/
+	position: relative;
+	height: 150px;
+	background-image: linear-gradient(#23a94c00, #248888);
+	clip-path: polygon(
+	0 0,
+	100% 0,
+	100% 100%,
+	0 calc(100% - 4vw)
+	);
+	/* change the calc height to a percentage height to get alternate responsive behavior*/
 }
 
 header .logo{
@@ -117,15 +96,12 @@ header .burger_icon{
 	background: #ffffff;
 	padding: 5px 10px;
 	text-transform: uppercase;
-
 	color: #43b779;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 14px;
-
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
-
 	margin: 45px 10px 0 0;
 }
 
@@ -156,7 +132,6 @@ header nav li a{
 	color: #fff;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 16px;
-
 	transition: all .2s linear;
 	-o-transition: all .2s linear;
 	-moz-transition: all .2s linear;
@@ -185,23 +160,13 @@ header .social li:first-child{
 	margin: 0;
 }
 
-
-
-
-
-
-
-
-
-
 /*		Hero section 		*/
-
 .hero{
 	display: block;
 	position: relative;
 	width: 100%;
 	height: 560px;
-	background: url('../img/hero.jpg') no-repeat fixed center center;
+	background: url('../img/hero.jpg') no-repeat fixed center bottom;
 	background-size: cover;
 }
 
@@ -318,54 +283,43 @@ a.app_link{
 	-webkit-transition: all .2s linear;
 }
 
-
 .about_video{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    background: rgba(0, 0, 0, .8);
-    display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: rgba(0, 0, 0, .8);
+	display: none;
 }
 
 .about_video iframe{
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
 }
 
 .close_video{
-    text-decoration: none;
-    position: absolute;
-    width: 38px;
-    height: 38px;
-    top: 50px;
-    right: 50px;
-    background: url('../img/close_video.png') no-repeat;
-    z-index: 9999;
+	text-decoration: none;
+	position: absolute;
+	width: 38px;
+	height: 38px;
+	top: 50px;
+	right: 50px;
+	background: url('../img/close_video.png') no-repeat;
+	z-index: 9999;
 }
 
 .enhance {
-  color: white;
-  text-transform: uppercase;
-  padding: 4px;
-  font-size: 1.4em;
-  font-weight: bolder;
+	color: white;
+	text-transform: uppercase;
+	padding: 4px;
+	font-size: 1.4em;
+	font-weight: bolder;
 }
 
-
-
-
-
-
-
-
-
-
 /*		Featured on section 		*/
-
 .featured_on{
 	width: 100%;
 	padding: 25px 0;
@@ -385,17 +339,7 @@ a.app_link{
 	margin-left: 0;
 }
 
-
-
-
-
-
-
-
-
-
 /*		About section 		*/
-
 .about{
 	padding: 100px 0;
 }
@@ -482,22 +426,11 @@ a.app_link{
 	display: inline-block;
 }
 
-
-
-
-
-
-
-
-
-
 /*		App features 		*/
-
 .app_features{
 	width: 100%;
 	padding: 100px 0 20px 0;
 	background-color: #41c17d;
-
 	background-image: -moz-linear-gradient(bottom, #248888 0%, #248888 0.27%, #40c27d 99.46%, #40c27d 100%);
 	background-image: -o-linear-gradient(bottom, #248888 0%, #248888 0.27%, #40c27d 99.46%, #40c27d 100%);
 	background-image: -webkit-linear-gradient(bottom, #248888 0%, #248888 0.27%, #40c27d 99.46%, #40c27d 100%);
@@ -528,17 +461,7 @@ a.app_link{
 	clear: both;
 }
 
-
-
-
-
-
-
-
-
-
 /*		Testimonials section 		*/
-
 .testimonials{
 	padding: 100px 0;
 }
@@ -606,7 +529,6 @@ a.app_link{
 	background: url('../img/nav_arrow.png') no-repeat;
 	text-indent: -200px;
 	overflow: hidden;
-
 	transition: all .2s linear;
 	-o-transition: all .2s linear;
 	-moz-transition: all .2s linear;
@@ -634,17 +556,7 @@ a.app_link{
 	background-position: -33px 0;
 }
 
-
-
-
-
-
-
-
-
-
 /*		Subscription section 		*/
-
 .sub_box{
 	width: 100%;
 	padding: 100px 0;
@@ -675,35 +587,28 @@ a.app_link{
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	vertical-align: middle;
-
 	border-top-left-radius: 2px;
 	-o-border-top-left-radius: 2px;
 	-moz-border-top-left-radius: 2px;
 	-webkit-border-top-left-radius: 2px;
-
 	border-bottom-left-radius: 2px;
 	-o-border-bottom-left-radius: 2px;
 	-moz-border-bottom-left-radius: 2px;
 	-webkit-border-bottom-left-radius: 2px;
-
-
 }
 
 .sub_box #mc_submit{
 	display: inline-block;
 	width: 60px;
 	height: 50px;
-
 	border-top-right-radius: 2px;
 	-o-border-top-right-radius: 2px;
 	-moz-border-top-right-radius: 2px;
 	-webkit-border-top-right-radius: 2px;
-
 	border-bottom-right-radius: 2px;
 	-o-border-bottom-right-radius: 2px;
 	-moz-border-bottom-right-radius: 2px;
 	-webkit-border-bottom-right-radius: 2px;
-
 	background-color: #fff;
 	border: 0;
 	outline: none;
@@ -742,17 +647,7 @@ a.app_link{
 	display: none;
 }
 
-
-
-
-
-
-
-
-
-
 /*		Footer 		*/
-
 footer{
 	padding: 100px 0;
 	text-align: center;
@@ -778,16 +673,6 @@ footer .copyright a{
 	color: #565555;
 }
 
-
-
-
-
-
-
-
-
-/*		Responsive CSS 		*/
-
 @media (max-width: 360px) {
 	.featured_on li{
 		display: block;
@@ -796,9 +681,6 @@ footer .copyright a{
 }
 
 @media (max-width: 767px) {
-
-
-	/*		Header 		*/
 	header .logo{
 		margin-right: 0;
 	}
@@ -820,7 +702,6 @@ footer .copyright a{
 	header nav.show{
 		display: block;
 	}
-
 
 	header nav li{
 		display: block;
@@ -848,12 +729,6 @@ footer .copyright a{
 		margin-left: 10px;
 	}
 
-
-
-
-
-
-	/*		Hero section 		*/
 	.hero .caption{
 		margin-left: 0;
 	}
@@ -866,11 +741,6 @@ footer .copyright a{
 		text-align: center;
 	}
 
-
-
-
-
-	/*		Featured on section		*/
 	.featured_on{
 		padding: 25px 0 5px 0!important;
 	}
@@ -879,12 +749,6 @@ footer .copyright a{
 		margin-bottom: 25px!important;
 	}
 
-
-
-
-
-
-	/*		About Section 		*/
 	.about .features_list {
 		text-align: center;
 		margin: 0;
@@ -905,12 +769,6 @@ footer .copyright a{
 		margin-top: 20px;
 	}
 
-
-
-
-
-
-	/*		Subscription section 		*/
 	.sub_box #mc-email,
 	.sub_box #mc_submit{
 		display: block;
